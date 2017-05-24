@@ -1,0 +1,29 @@
+//
+//  LF_PrefixHeader.pch
+//  WeiXinPayDemo
+//
+//  Created by apple on 2017/4/14.
+//  Copyright © 2017年 baixinxueche. All rights reserved.
+//
+
+#ifndef LF_PrefixHeader_pch
+#define LF_PrefixHeader_pch
+
+#import <UMSocialCore/UMSocialCore.h>
+#import "SVProgressHUD.h"
+#import "BXHttpManager.h"
+
+
+#import "WXApi.h"
+
+
+
+
+//NSLog ————> MYLog
+#ifdef  DEBUG
+#define MYLog(...)   NSLog(__VA_ARGS__)
+#else
+#define MYLog(...)
+#endif
+
+#endif /* LF_PrefixHeader_pch */

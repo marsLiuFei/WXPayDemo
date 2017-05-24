@@ -1,0 +1,19 @@
+PODS:
+  - SVProgressHUD (2.0.4)
+  - UMengUShare/Core (6.2.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.2)
+  - UMengUShare/Social/WeChat (6.2.2):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - SVProgressHUD (~> 2.0.3)
+  - UMengUShare/Social/WeChat
+
+SPEC CHECKSUMS:
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+  UMengUShare: fc0a98b8d5297632e82874318fd72a10d17da228
+
+PODFILE CHECKSUM: 8bf7bb461ebe1cedc318a1e3f3061a6903614e3f
+
+COCOAPODS: 1.2.0
